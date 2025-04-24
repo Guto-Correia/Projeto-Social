@@ -25,6 +25,18 @@ iframe#tela{
     height:472px;
     width:267px;
 }
-#redes{
-
+section#redes{
+    text-align:right;
+}
+section#redes img{
+    width:50px;
+    margin:8px;
+    border-radius:50%;
+    box-shadow: 2px 2px 5px #000000a1;
+}
+section#redes img:hover{
+    transform:translate(-2px,-2px);
+    border: 1px solid #ffffff57;
+    box-shadow:5px 5px 10px #00000098;
+    transition:transform 0.2s, box-shadow 0.5s, border 0.4s;
 }
